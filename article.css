@@ -91,6 +91,10 @@
 .article-body .sources h2 { margin-top: 0; font-size: 1.2rem; }
 .sources ol { font-size: 0.9rem; color: var(--ink); word-break: break-word; }
 
+/* Vignette en tête d'article */
+.article-cover { max-width: 46rem; margin: 0 0 var(--space-4); }
+.article-cover img { width: 100%; height: auto; border: 1px solid var(--sage-mist); }
+
 /* Audio (NotebookLM) */
 .article-audio { max-width: var(--text-max); margin: 0 0 var(--space-4); }
 .article-audio audio { width: 100%; }
